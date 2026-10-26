@@ -17,16 +17,16 @@ public class GCD {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
 
         System.out.print("Enter a: ");
-        int a = input.nextInt();
+        int a = s.nextInt();
 
         System.out.print("Enter b: ");
-        int b = input.nextInt();
+        int b = s.nextInt();
 
         System.out.println("GCD = " + gcd(a, b));
 
-        input.close();
+        s.close();
     }
 }
